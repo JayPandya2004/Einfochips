@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(){
+	int i=1, z=0;
+	do{
+		if(i<5){
+			printf("%d", i++);
+			z=z+2;
+		}
+	}while(i<5);
+}
